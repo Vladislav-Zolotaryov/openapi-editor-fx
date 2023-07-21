@@ -1,6 +1,7 @@
 {
   "name": "openapi-editor-fx",
   "displayName": "openapi-editor-fx",
+  "publisher": "Vladyslav Zolotarov",
   "description": "Allows to manipulate reference related parts of OpenAPI spec",
   "version": "0.0.1",
   "engines": {
@@ -11,6 +12,9 @@
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
+  "repository": {
+    "url": "https://github.com/Vladislav-Zolotaryov/openapi-editor-fx"
+  },
   "contributes": {
     "commands": [
       {
@@ -27,20 +31,21 @@
     "lint": "eslint src --ext ts"
   },
   "devDependencies": {
-    "@types/vscode": "^1.80.0",
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "20.2.5",
+    "@types/vscode": "^1.80.0",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
-    "glob": "^8.1.0",
-    "mocha": "^10.2.0",
-    "typescript": "^5.1.3",
     "@vscode/test-electron": "^2.3.2",
+    "@vscode/vsce": "^2.19.0",
     "eslint": "^8.45.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.3"
   }
 }
